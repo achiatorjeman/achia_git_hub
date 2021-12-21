@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Results Page</title>
+
+<head>
+    <meta charset="UTF-8">
+    <title>my_final_project</title>
+    <style><link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+  <body>
+<div id="weatherResults">
+
+    <h1>Weather in {{ location }}</h1>
+    <h1>city in {{ country }}</h1>
+   <h2>,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,. </h2>
+     {% for d in range(7) %}
+    <h2>in date: {{ date[d] }}</h2>
+    <h2>at day: {{ temp_day[d] }}° c</h2>
+    <h2>at night: {{ temp_night[d] }}° c</h2>
+    <h2>humidity: {{ humidity[d] }} %</h2>
+    <h2>,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,. </h2>
+    <h1>     </h1>
+     {% endfor %}
+</div>
+
+
+</body>
+
+</body>
+
+
+</body>
+</html>
